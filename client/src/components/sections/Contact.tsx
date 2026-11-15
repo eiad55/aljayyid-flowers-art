@@ -1,4 +1,4 @@
-import { BRAND_COLORS, CONTACT_INFO, COMPANY_INFO } from "@/constants/data";
+import { BRAND_COLORS, CONTACT_INFO } from "@/constants/data";
 import { OrnamentLabel } from "@/components/OrnamentLabel";
 import { BotanicalPattern } from "@/components/BotanicalPattern";
 import { IconPhone, IconInstagram, IconSnapchat, IconWhatsapp, IconClock, IconPin } from "@/components/icons/Icons";

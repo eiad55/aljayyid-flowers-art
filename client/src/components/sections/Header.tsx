@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NAV_ITEMS, BRAND_COLORS, COMPANY_INFO, CONTACT_INFO } from "@/constants/data";
-import { scrollToElement, generateWhatsAppLink } from "@/lib/navigation";
+import { scrollToElement } from "@/lib/navigation";
 
 interface HeaderProps { isScrolled: boolean; }
 

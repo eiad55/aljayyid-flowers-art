@@ -195,7 +195,7 @@ export const CONTACT_INFO = {
 /** Company */
 export const COMPANY_INFO = {
   name:        "الجيد المتقدمة",
-  tagline:     "للورود والمهدايا والأعمال الفنية",
+  tagline:     "للورود والهدايا والأعمال الفنية",
   fullTagline: "ورد يليق بلحظتك",
   description: "متجر متخصص في تنسيق الورود الفاخر والأعمال الفنية لجميع المناسبات",
   heroImage:   "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=85&auto=format&fit=crop",

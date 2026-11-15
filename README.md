@@ -40,9 +40,9 @@ client/
 │   │   │   ├── WhyUs.tsx
 │   │   │   ├── Branches.tsx    ← قسم الفروع المبتكر
 │   │   │   ├── Contact.tsx
-│   │   │   └── Footer.tsx
-│   │   ├── OrnamentLabel.tsx
-│   │   └── WhatsAppButton.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── WhatsAppButton.tsx
+│   │   └── OrnamentLabel.tsx
 │   ├── constants/
 │   │   └── data.ts             ← بيانات الموقع (ألوان، منتجات، فروع...)
 │   ├── hooks/

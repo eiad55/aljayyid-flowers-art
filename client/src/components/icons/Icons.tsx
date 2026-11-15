@@ -10,21 +10,6 @@ interface IconProps {
   className?:   string;
 }
 
-const base = (size: number, color: string, sw: number, children: React.ReactNode) => (
-  <svg
-    width={size} height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke={color}
-    strokeWidth={sw}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    aria-hidden="true"
-  >
-    {children}
-  </svg>
-);
-
 export const IconFlower = ({ size=24, color="currentColor", strokeWidth=1.5, className="" }: IconProps) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
     <circle cx="12" cy="12" r="2.5"/>

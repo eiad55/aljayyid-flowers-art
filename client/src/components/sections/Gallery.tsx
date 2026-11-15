@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { PRODUCTS, OCCASIONS, BRAND_COLORS, CONTACT_INFO } from "@/constants/data";
+import { PRODUCTS, OCCASIONS, BRAND_COLORS } from "@/constants/data";
 import { OrnamentLabel } from "@/components/OrnamentLabel";
 import { generateWhatsAppLink } from "@/lib/navigation";
 import { IconArrow } from "@/components/icons/Icons";
@@ -80,7 +80,7 @@ export function Gallery() {
         {/* Masonry grid — variable heights */}
         {items.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {items.map((p, i) => (
+            {items.map((p) => (
               <div
                 key={p.id}
                 className="relative overflow-hidden group cursor-pointer"
